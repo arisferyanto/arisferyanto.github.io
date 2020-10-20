@@ -2,35 +2,62 @@
 layout: default
 title: Your workspace. Organized.
 subtitle: Snap windows by dragging, keyboard shortcuts, or menu bar.
+hide_hero: true
 hero_height: is-small
 hero_link: "#"
-hero_link_text: Download now
+hero_link_text: Download
 hero_link_icon: fa-download
 ---
 
-<div class="imac">
-  <div class="screen-wrapper">
-    <div class="screen">
-      <div class="screen-without-menubar">
-        <div id="window3" class="window">
-          <div class="window-title"></div>
-        </div>
-        <div id="window2" class="window">
-          <div class="window-title"></div>
-        </div>
-        <div id="window1" class="window active">
-          <div class="window-title"></div>
+<section class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %}" {% if page.hero_image %} style="background: url('{{ page.hero_image }}') no-repeat center center; background-size: cover;" {% endif %}>
+  <div class="hero-body {% if page.hero_darken %} hero-darken {% endif %}">
+    <div class="container has-text-centered">
+      <div class="macbook">
+        <div class="screen">
+          <div class="screen-without-menubar">
+            <div id="window3" class="window">
+              <div class="window-title"></div>
+            </div>
+            <div id="window2" class="window">
+              <div class="window-title"></div>
+            </div>
+            <div id="window1" class="window active">
+              <div class="window-title"></div>
+            </div>
+          </div>
         </div>
       </div>
+      <h1 class="title">{{ page.title }}</h1>
+      <p class="subtitle">{{ page.subtitle }}</p>
+      {% if page.hero_link %}
+          <a href="{{ page.hero_link | relative_url }}" class="button is-primary has-text-weight-semibold">
+              {% if page.hero_link_icon %}
+                  <span class="icon">
+                      <i class="fas {{ page.hero_link_icon }}"></i>
+                  </span>
+              {% endif %}
+              <span>{{ page.hero_link_text }}</span>
+          </a>
+      {% endif %}
     </div>
   </div>
-</div>
+</section>
 
 <script>
   anime.timeline({
+    easing: 'easeInQuint',
+    duration: 1500,
+    autoplay: true,
+  })
+  .add({
+    targets: '.macbook',
+    opacity: 1,
+  })
+
+  anime.timeline({
     easing: 'easeInOutSine',
     duration: 500,
-    delay: 1000,
+    delay: 1500,
     loop: true,
     autoplay: true
   })
@@ -122,7 +149,7 @@ hero_link_icon: fa-download
     targets: '#window3',
     top: 0,
     left: '15%',
-    bottom: '20%',
+    bottom: '15%',
     right: '15%',
   }, '-=1500')
 </script>

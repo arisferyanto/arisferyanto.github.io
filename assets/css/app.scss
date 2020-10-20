@@ -11,24 +11,23 @@ $primary: #03a9f4;
   margin-left: 6px;
 }
 
-.imac {
-  background-image: url('/assets/img/imac.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 80%;
-  margin: 0 auto;
-}
-
-.screen-wrapper {
-  padding: 4% 4.15% 28% 4.15%;
+.macbook {
+  background: url(/assets/img/macbook.png) no-repeat;
+  background-size: 100%;
+  width: 678px;
+  height: 398px;
+  margin: 20px auto;
+  position: relative;
 }
 
 .screen {
-  position: relative;
-  width: 100%;
-  padding: 28.125%;
+  position: absolute;
+  top: 23px;
+  left: 91px;
+  width: 496px;
+  height: 310px;
+  background-size: inherit;
   background-color: #DDD;
-  overflow: hidden;
 }
 
 .screen-without-menubar {
@@ -45,13 +44,53 @@ $primary: #03a9f4;
 .window {
   position: absolute;
   background-color: rgb(236, 236, 236);
-  border-radius: 4px;
+  border-radius: 3px;
   border: 0.5px solid #555;
   box-shadow: 0 0 20px #00000040;
 }
 
 .window.active {
   box-shadow: 0 0 20px #00000080;
+}
+
+@media (max-width: 748px) {
+  .macbook {
+      width: 540px;
+      height: 320px;
+  }
+  .screen {
+    top: 20px;
+    left: 72px;
+    width: 396px;
+    height: 247px;
+  }
+  .window {
+    border-radius: 2px;
+    box-shadow: 0 0 15px #00000040;
+  }
+  .window.active {
+    box-shadow: 0 0 15px #00000080;
+  }
+}
+
+@media (max-width: 620px) {
+  .macbook {
+      width: 280px;
+      height: 175px;
+  }
+  .screen {
+    top: 10px;
+    left: 38px;
+    width: 205px;
+    height: 128px;
+  }
+  .window {
+    border-radius: 2px;
+    box-shadow: 0 0 10px #00000040;
+  }
+  .window.active {
+    box-shadow: 0 0 10px #00000080;
+  }
 }
 
 div#window1 {
@@ -71,6 +110,6 @@ div#window2 {
 div#window3 {
   top: 0;
   left: 15%;
-  bottom: 20%;
+  bottom: 30%;
   right: 15%;
 }

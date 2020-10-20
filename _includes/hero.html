@@ -4,7 +4,7 @@
             <h1 class="title">{{ page.title }}</h1>
             <p class="subtitle">{{ page.subtitle }}</p>
             {% if page.hero_link %}
-                <a href="{{ page.hero_link | relative_url }}" class="button is-primary">
+                <a href="{{ page.hero_link | relative_url }}" class="button is-primary is-bold">
                     {% if page.hero_link_icon %}
                         <span class="icon">
                             <i class="fas {{ page.hero_link_icon }}"></i>
