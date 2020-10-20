@@ -1,16 +1,11 @@
 ---
-layout: default
-title: Your workspace. Organized.
-subtitle: Snap windows by dragging, keyboard shortcuts, or menu bar.
+layout: blank
 hide_hero: true
-hero_height: is-small
-hero_link: "#"
-hero_link_text: Download
-hero_link_icon: fa-download
+hide_footer: true
 ---
 
-<section class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %}" {% if page.hero_image %} style="background: url('{{ page.hero_image }}') no-repeat center center; background-size: cover;" {% endif %}>
-  <div class="hero-body {% if page.hero_darken %} hero-darken {% endif %}">
+<section class="hero is-small mb-6">
+  <div class="hero-body">
     <div class="container has-text-centered">
       <div class="macbook">
         <div class="screen">
@@ -27,18 +22,53 @@ hero_link_icon: fa-download
           </div>
         </div>
       </div>
-      <h1 class="title">{{ page.title }}</h1>
-      <p class="subtitle">{{ page.subtitle }}</p>
-      {% if page.hero_link %}
-          <a href="{{ page.hero_link | relative_url }}" class="button is-primary has-text-weight-semibold">
-              {% if page.hero_link_icon %}
-                  <span class="icon">
-                      <i class="fas {{ page.hero_link_icon }}"></i>
-                  </span>
-              {% endif %}
-              <span>{{ page.hero_link_text }}</span>
-          </a>
-      {% endif %}
+      <h1 class="title">The fast, easy way to organize windows on your Mac</h1>
+      <p class="subtitle">Snap windows by dragging, keyboard shortcuts, or menu bar.</p>
+      <a href="#" class="button is-primary has-text-weight-semibold">
+          <span class="icon">
+              <i class="fas fa-download"></i>
+          </span>
+          <span>Download</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-medium is-primary" id="privacy">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns">
+        <div class="column has-text-centered">
+          <span class="icon is-large">
+            <i class="fas fa-laptop fa-2x"></i>
+          </span>
+          <p class="is-size-4 has-text-weight-bold">Compatible with older OS</p>
+          <p class="subtitle">Works on OS X 10.10 and higher.</p>
+        </div>
+        <div class="column has-text-centered">
+          <span class="icon is-large">
+            <i class="fas fa-expand-alt fa-2x"></i>
+          </span>
+          <p class="is-size-4 has-text-weight-bold">Works on any screens</p>
+          <p class="subtitle">Works on multiple screens and different screen orientations.</p>
+        </div>
+        <div class="column has-text-centered">
+          <span class="icon is-large">
+            <i class="fas fa-lock fa-2x"></i>
+          </span>
+          <p class="is-size-4 has-text-weight-bold">Respect for privacy</p>
+          <p class="subtitle">We do not collect any user data.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-medium">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <p class="title">For only $1.99</p>
+      <p class="subtitle">The same price as one cheeseburger.</p>
     </div>
   </div>
 </section>
