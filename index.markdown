@@ -1,3 +1,3 @@
 ---
-layout: default
+hide_hero: true
 ---
