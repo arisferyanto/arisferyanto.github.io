@@ -1,0 +1,128 @@
+---
+layout: default
+title: Your workspace. Organized.
+subtitle: Snap windows by dragging, keyboard shortcuts, or menu bar.
+hero_height: is-small
+hero_link: "#"
+hero_link_text: Download now
+hero_link_icon: fa-download
+---
+
+<div class="imac">
+  <div class="screen-wrapper">
+    <div class="screen">
+      <div class="screen-without-menubar">
+        <div id="window3" class="window">
+          <div class="window-title"></div>
+        </div>
+        <div id="window2" class="window">
+          <div class="window-title"></div>
+        </div>
+        <div id="window1" class="window active">
+          <div class="window-title"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  anime.timeline({
+    easing: 'easeInOutSine',
+    duration: 500,
+    delay: 1000,
+    loop: true,
+    autoplay: true
+  })
+  .add({
+    targets: '#window1',
+    top: 0,
+    left: 0,
+    bottom: 0,
+    right: '50%',
+  })
+  .add({
+    targets: '#window2',
+    top: 0,
+    left: '50%',
+    bottom: 0,
+    right: 0,
+  }, "-=1500")
+  .add({
+    targets: '#window1',
+    top: 0,
+    left: '50%',
+    bottom: 0,
+    right: 0,
+  })
+  .add({
+    targets: '#window2',
+    top: '50%',
+    left: 0,
+    bottom: 0,
+    right: '50%',
+  }, '-=1500')
+  .add({
+    targets: '#window3',
+    top: 0,
+    left: 0,
+    bottom: '50%',
+    right: '50%',
+  }, '-=1500')
+  .add({
+    targets: '#window1',
+    top: 0,
+    left: '66.67%',
+    bottom: 0,
+    right: 0,
+  })
+  .add({
+    targets: '#window2',
+    top: 0,
+    left: '33.33%',
+    bottom: 0,
+    right: '33.333%',
+  }, '-=1500')
+  .add({
+    targets: '#window3',
+    top: 0,
+    left: 0,
+    bottom: 0,
+    right: '66.67%',
+  }, '-=1500')
+  .add({
+    targets: '#window1',
+    top: 0,
+    left: 0,
+    bottom: 0,
+    right: '33.33%',
+  })
+  .add({
+    targets: '#window2',
+    top: 0,
+    left: '66.67%',
+    bottom: 0,
+    right: 0,
+  }, '-=1500')
+  .add({
+    targets: '#window1',
+    top: '5%',
+    left: '5%',
+    bottom: '45%',
+    right: '45%',
+  })
+  .add({
+    targets: '#window2',
+    top: '30%',
+    left: '25%',
+    bottom: '10%',
+    right: '5%',
+  }, '-=1500')
+  .add({
+    targets: '#window3',
+    top: 0,
+    left: '15%',
+    bottom: '20%',
+    right: '15%',
+  }, '-=1500')
+</script>
