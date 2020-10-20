@@ -1,24 +1,23 @@
 ---
 permalink: /contact/
 layout: default
-title: Contact Grid Team
+title: Contact Us
+subtitle: We'll get back to you as soon as possible.
 hero_height: is-small
 ---
 
 <div class="columns is-centered">
   <div class="column is-half">
-    <form action="https://formspree.io/f/xgepkvwa" method="POST">
+    <form id="contact-form" action="https://formspree.io/f/xgepkvwa" method="POST">
       <div class="field">
-        <label class="label">Name</label>
         <div class="control has-icons-left">
-          <input name="name" class="input" type="text" placeholder="Your name">
+          <input name="name" class="input" type="text" placeholder="Your name" maxlength="100">
           <span class="icon is-small is-left">
             <i class="fas fa-user"></i>
           </span>
         </div>
       </div>
       <div class="field">
-        <label class="label">Email</label>
         <div class="control has-icons-left">
           <input name="_replyto" class="input" type="email" placeholder="Your email">
           <span class="icon is-small is-left">
@@ -27,16 +26,74 @@ hero_height: is-small
         </div>
       </div>
       <div class="field">
-        <label class="label">Message</label>
+        <div class="control">
+          <input name="_subject" class="input" type="text" placeholder="Subject" maxlength="100">
+        </div>
+      </div>
+      <div class="field">
         <div class="control">
           <textarea name="message" class="textarea" placeholder="Your message"></textarea>
         </div>
+        <p id="status" class="help has-text-centered"></p>
       </div>
-      <div class="field is-grouped is-grouped-right">
+      <div class="field is-grouped is-grouped-centered">
         <div class="control">
-          <input type="submit" class="button is-primary" value="Send">
+          <button id="submit-button" type="submit" class="button is-primary">Send</button>
         </div>
       </div>
     </form>
   </div>
 </div>
+
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+
+    // get the form elements defined in your form HTML above
+    
+    var form = document.getElementById("contact-form");
+    var button = document.getElementById("submit-button");
+    var status = document.getElementById("status");
+
+    // Success and Error functions for after the form is submitted
+    
+    function success() {
+      button.classList.remove('is-loading');
+      button.disabled = true
+      button.innerHTML = 'Sent'
+    }
+
+    function error() {
+      button.classList.remove('is-loading');
+      status.classList.add('is-danger');
+      status.innerHTML = "Oops! There was a problem.";
+    }
+
+    // handle the form submission event
+
+    form.addEventListener("submit", function(ev) {
+      ev.preventDefault();
+      button.classList.add('is-loading');
+      status.classList.remove('is-danger');
+      status.innerHTML = '';
+      var data = new FormData(form);
+      ajax(form.method, form.action, data, success, error);
+    });
+  });
+  
+  // helper function for sending an AJAX request
+
+  function ajax(method, url, data, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.open(method, url);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        success(xhr.response, xhr.responseType);
+      } else {
+        error(xhr.status, xhr.response, xhr.responseType);
+      }
+    };
+    xhr.send(data);
+  }
+</script>
