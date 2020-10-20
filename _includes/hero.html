@@ -1,0 +1,18 @@
+<section class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %} is-primary" {% if page.hero_image %} style="background: url('{{ page.hero_image }}') no-repeat center center; background-size: cover;" {% endif %}>
+    <div class="hero-body {% if page.hero_darken %} hero-darken {% endif %}">
+        <div class="container has-text-centered">
+            <h1 class="title">{{ page.title }}</h1>
+            <p class="subtitle">{{ page.subtitle }}</p>
+            {% if page.hero_link %}
+                <a href="{{ page.hero_link | relative_url }}" class="button is-primary is-light">
+                    {% if page.hero_link_icon %}
+                        <span class="icon">
+                            <i class="fas {{ page.hero_link_icon }}"></i>
+                        </span>
+                    {% endif %}
+                    <span>{{ page.hero_link_text }}</span>
+                </a>
+            {% endif %}
+        </div>
+    </div>
+</section>
