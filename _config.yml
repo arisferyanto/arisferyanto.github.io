@@ -21,6 +21,7 @@
 title: Grid for macOS
 description: The fast, easy way to organize windows on your Mac
 favicon: favicon.ico
+google_analytics: GTM-KGKSXDF
 
 # Build settings
 remote_theme: chrisrhymes/bulma-clean-theme
