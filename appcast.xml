@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Grid</title>
+        <item>
+            <title>1.0.1</title>
+            <pubDate>Wed, 21 Oct 2020 18:07:05 +0700</pubDate>
+            <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
+            <enclosure url="https://macgrid.app/download/Grid-1.0.1.dmg" sparkle:version="3" sparkle:shortVersionString="1.0.1" length="12888808" type="application/octet-stream" sparkle:edSignature="2VvA8Dz3PMwjDLrng0APcWgEKZbMSVfE2paB88yuzQZF8i+DkHg9T9lYd5Kho8gtZf7iT5kpi2Pth7hCdZBjAg=="/>
+        </item>
+    </channel>
+</rss>
