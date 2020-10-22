@@ -8,5 +8,14 @@
             <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
             <enclosure url="https://macgrid.app/download/Grid-1.0.5.dmg" sparkle:version="7" sparkle:shortVersionString="1.0.5" length="12902755" type="application/octet-stream" sparkle:edSignature="SdakJM8I2m9cKiv6jXPjGPQnbvvhhWFo7sG5XW++2CFfg/Xu2uxN4a1i8/sHYKaRoQJhcfrD3/t5MEJ3SwgcCA=="/>
         </item>
+        <item>
+            <title>1.0.6</title>
+            <pubDate>Thu, 22 Oct 2020 18:36:16 +0700</pubDate>
+            <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
+            <enclosure url="https://macgrid.app/download/Grid-1.0.6.dmg" sparkle:version="8" sparkle:shortVersionString="1.0.6" length="12898261" type="application/octet-stream" sparkle:edSignature="7OaQBL46tOdsQSZtY13Tzc3fAcLRR0RceiSNPQdMMteTUhEhPbpuaMAqbrpn5XfTH+7nWnBvBF3619I5zXniBA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://macgrid.app/download/Grid8-7.delta" sparkle:version="8" sparkle:shortVersionString="1.0.6" sparkle:deltaFrom="7" length="250356" type="application/octet-stream" sparkle:edSignature="EbH8m0swyjbk+ZERewNCF230FsQ7zm9DHdA05cR2rx6tjk7vK+rQKT00FRW31FtumJTP/5ynVOawKvFiBk9VAw=="/>
+            </sparkle:deltas>
+        </item>
     </channel>
 </rss>
