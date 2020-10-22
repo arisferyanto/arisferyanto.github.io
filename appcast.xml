@@ -3,10 +3,10 @@
     <channel>
         <title>Grid</title>
         <item>
-            <title>1.0.1</title>
-            <pubDate>Wed, 21 Oct 2020 18:07:05 +0700</pubDate>
+            <title>1.0.5</title>
+            <pubDate>Thu, 22 Oct 2020 12:25:23 +0700</pubDate>
             <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
-            <enclosure url="https://macgrid.app/download/Grid-1.0.1.dmg" sparkle:version="3" sparkle:shortVersionString="1.0.1" length="12888808" type="application/octet-stream" sparkle:edSignature="2VvA8Dz3PMwjDLrng0APcWgEKZbMSVfE2paB88yuzQZF8i+DkHg9T9lYd5Kho8gtZf7iT5kpi2Pth7hCdZBjAg=="/>
+            <enclosure url="https://macgrid.app/download/Grid-1.0.5.dmg" sparkle:version="7" sparkle:shortVersionString="1.0.5" length="12902755" type="application/octet-stream" sparkle:edSignature="SdakJM8I2m9cKiv6jXPjGPQnbvvhhWFo7sG5XW++2CFfg/Xu2uxN4a1i8/sHYKaRoQJhcfrD3/t5MEJ3SwgcCA=="/>
         </item>
     </channel>
 </rss>
