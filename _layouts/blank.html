@@ -9,6 +9,10 @@
 <html>
   {% include head.html %}
   <body>
+    {% if site.google_analytics %}
+        {% include google_analytics_body.html %}
+    {% endif %}
+
     {% include header.html %}
     {% unless page.hide_hero %}
         {% include hero.html %}
