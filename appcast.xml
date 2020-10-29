@@ -27,7 +27,7 @@
                 <enclosure url="https://macgrid.app/download/Grid9-7.delta" sparkle:version="9" sparkle:shortVersionString="1.1" sparkle:deltaFrom="7" length="329948" type="application/octet-stream" sparkle:edSignature="glHnkOKze7sdMvaMjpF0bqSChjuU4imrfPcGg6VnH4ao24pHdeP3sSeVaVaNz7/+UtmqvbygE2DOZBcNxJcsAw=="/>
             </sparkle:deltas>
             <description><![CDATA[<h2>New Feature: Swipe Gestures</h2>
-<p>You can now use swipe gestures on a window's title bar to move and resize windows. For more information, see https://macgrid.app/#gestures</p>]]></description>
+<p>You can now use swipe gestures on a window's title bar to move and resize windows. For more information, see <a href="https://macgrid.app/#gestures">https://macgrid.app/#gestures</a></p>]]></description>
         </item>
     </channel>
 </rss>
