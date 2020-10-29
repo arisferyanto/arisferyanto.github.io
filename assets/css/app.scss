@@ -110,6 +110,8 @@ div#window3 {
   right: 15%;
 }
 
-video {
-  width: 75%;
+@media (min-width: 679px) {
+  video {
+    width: 80%;
+  }
 }
