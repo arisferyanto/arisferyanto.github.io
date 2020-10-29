@@ -17,5 +17,17 @@
                 <enclosure url="https://macgrid.app/download/Grid8-7.delta" sparkle:version="8" sparkle:shortVersionString="1.0.6" sparkle:deltaFrom="7" length="250356" type="application/octet-stream" sparkle:edSignature="EbH8m0swyjbk+ZERewNCF230FsQ7zm9DHdA05cR2rx6tjk7vK+rQKT00FRW31FtumJTP/5ynVOawKvFiBk9VAw=="/>
             </sparkle:deltas>
         </item>
+        <item>
+            <title>1.1</title>
+            <pubDate>Thu, 29 Oct 2020 01:11:03 +0700</pubDate>
+            <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
+            <enclosure url="https://macgrid.app/download/Grid-1.1.dmg" sparkle:version="9" sparkle:shortVersionString="1.1" length="12920508" type="application/octet-stream" sparkle:edSignature="MC5hsEnCfNv+tIkdX/RDMDaaY3+uMffBo4GChr4Zw2YBbOMyUOKpkz5iPsS/LKo9tyBICHx94f2Yo1m/aVAyDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://macgrid.app/download/Grid9-8.delta" sparkle:version="9" sparkle:shortVersionString="1.1" sparkle:deltaFrom="8" length="149328" type="application/octet-stream" sparkle:edSignature="svY+7+RNTbTyFCsNFhQrBuC2kD85QMsh6UUD7GevKu2GRNWovtzpeaLJXIuYsC3dgnRzKTdsxIffwGsvLjosBw=="/>
+                <enclosure url="https://macgrid.app/download/Grid9-7.delta" sparkle:version="9" sparkle:shortVersionString="1.1" sparkle:deltaFrom="7" length="329948" type="application/octet-stream" sparkle:edSignature="glHnkOKze7sdMvaMjpF0bqSChjuU4imrfPcGg6VnH4ao24pHdeP3sSeVaVaNz7/+UtmqvbygE2DOZBcNxJcsAw=="/>
+            </sparkle:deltas>
+            <description><![CDATA[<h2>New Feature: Swipe Gestures</h2>
+<p>You can now use swipe gestures on a window's title bar to move and resize windows. For more information, see https://macgrid.app/#gestures</p>]]></description>
+        </item>
     </channel>
 </rss>
