@@ -6,7 +6,7 @@
     {% assign content_width = 'is-12' %} 
 {% endif %}
 <!DOCTYPE html>
-<html>
+<html {% if site.language %}lang="{{ site.language }}"{% endif %}>
   {% include head.html %}
   <body>
     {% if site.google_analytics %}
