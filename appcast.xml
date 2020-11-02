@@ -29,5 +29,17 @@
             <description><![CDATA[<h2>New Feature: Swipe Gestures</h2>
 <p>You can now use swipe gestures on a window's title bar to move and resize windows. For more information, see <a href="https://macgrid.app/#gestures">https://macgrid.app/#gestures</a></p>]]></description>
         </item>
+        <item>
+            <title>1.1.1</title>
+            <pubDate>Mon, 02 Nov 2020 16:51:48 +0700</pubDate>
+            <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
+            <enclosure url="https://macgrid.app/download/Grid-1.1.1.dmg" sparkle:version="10" sparkle:shortVersionString="1.1.1" length="12911965" type="application/octet-stream" sparkle:edSignature="QHDcs4h2D9Gpo7rSNqiygX6LAZtCHTE317ZLT3smxoIaUnnsK53heEc6DSBP4QEg0XdJPX0JUXun4eHKe6gaBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://macgrid.app/download/Grid10-9.delta" sparkle:version="10" sparkle:shortVersionString="1.1.1" sparkle:deltaFrom="9" length="84779" type="application/octet-stream" sparkle:edSignature="vjQt5Y37xqd0IumKjI4tWivzccJO9PSrhNxi2Xx45BJ0m3fZkJr3pthB9ksXBic397Lig7aej8AjkdcuJ9s1Bg=="/>
+                <enclosure url="https://macgrid.app/download/Grid10-8.delta" sparkle:version="10" sparkle:shortVersionString="1.1.1" sparkle:deltaFrom="8" length="145530" type="application/octet-stream" sparkle:edSignature="pfW6QEm2PgpUrbvVfdjqx0o7/3GWKhxGWb0vY07Z/JJHKzJATK4e6sF03t908sHxM45rdtGrz8QfaQO7aSjpDw=="/>
+                <enclosure url="https://macgrid.app/download/Grid10-7.delta" sparkle:version="10" sparkle:shortVersionString="1.1.1" sparkle:deltaFrom="7" length="329487" type="application/octet-stream" sparkle:edSignature="amgds4+YfszfMHepFDLBXZLOmFvZkg45JTmnRQc5ujOIl9EzdsIxuE43Iby7wrp1X+RtX4Gbj2eTK6GGOcIeCQ=="/>
+            </sparkle:deltas>
+            <description><![CDATA[Bug fixes and improvements.]]></description>
+        </item>
     </channel>
 </rss>
