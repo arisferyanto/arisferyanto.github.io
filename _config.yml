@@ -25,6 +25,7 @@ google_analytics: GTM-KGKSXDF
 
 # Build settings
 remote_theme: chrisrhymes/bulma-clean-theme
+# theme: bulma-clean-theme
 plugins:
   - jekyll-feed
 
