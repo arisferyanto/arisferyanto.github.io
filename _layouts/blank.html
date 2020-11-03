@@ -6,7 +6,7 @@
     {% assign content_width = 'is-12' %} 
 {% endif %}
 <!DOCTYPE html>
-<html {% if site.language %}lang="{{ site.language }}"{% endif %}>
+<html {% if site.language %}lang="{{ site.language }}"{% endif %} class="has-navbar-fixed-top">
   {% include head.html %}
   <body>
     {% if site.google_analytics %}
