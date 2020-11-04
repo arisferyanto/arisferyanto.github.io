@@ -41,5 +41,21 @@
             </sparkle:deltas>
             <description><![CDATA[Bug fixes and improvements.]]></description>
         </item>
+        <item>
+            <title>1.1.2</title>
+            <pubDate>Wed, 04 Nov 2020 17:09:12 +0700</pubDate>
+            <description><![CDATA[<p>Bug fixes:</p>
+<ul>
+    <li>Fixed inverted gestures when scrolling direction is not natural.</li>
+</ul>]]></description>
+            <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
+            <enclosure url="https://macgrid.app/download/Grid-1.1.2.dmg" sparkle:version="11" sparkle:shortVersionString="1.1.2" length="12893951" type="application/octet-stream" sparkle:edSignature="LfndSXQVjKc+N5LUcgh/ZGwlbVb/hpUq+rxfOIdkH1MOOmUcYjbk7j080tS4BDPi+6UCm5pxz43R97woVm7ZDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://macgrid.app/download/Grid11-10.delta" sparkle:version="11" sparkle:shortVersionString="1.1.2" sparkle:deltaFrom="10" length="81693" type="application/octet-stream" sparkle:edSignature="+KpLidcLvoDWCgQ3nDmbmx83Vry0LiyvV02arAMoAwb/RXTM+79kxmoupbI1mcr8o9dMEqIriyAZXA5nEgUTCg=="/>
+                <enclosure url="https://macgrid.app/download/Grid11-9.delta" sparkle:version="11" sparkle:shortVersionString="1.1.2" sparkle:deltaFrom="9" length="92317" type="application/octet-stream" sparkle:edSignature="8ULUy0CiFVq5pE7uSecZUZIIwEV2VXhTr1bdJ9KDDqomVqNLI/xk6DkJr7pRIG7be5/VSErt7xDAj1vwyibpBA=="/>
+                <enclosure url="https://macgrid.app/download/Grid11-8.delta" sparkle:version="11" sparkle:shortVersionString="1.1.2" sparkle:deltaFrom="8" length="139765" type="application/octet-stream" sparkle:edSignature="VQVlEmAaQsjdGRU/YZj2rm3NeUWfTxTlX7jGwGQrA9xdP3DJaiiViAXh6ENZH7damy69FVUkIBo8YfoaZtCxDw=="/>
+                <enclosure url="https://macgrid.app/download/Grid11-7.delta" sparkle:version="11" sparkle:shortVersionString="1.1.2" sparkle:deltaFrom="7" length="328862" type="application/octet-stream" sparkle:edSignature="T67XJmQpkcBQ418Xs4KGu0KBTH/ROY6HVG3Ms1SwUzYlvg58KlVTDc8VmhIsPLcOONhDpavFEPvQ7pVfk8L/Dg=="/>
+            </sparkle:deltas>
+        </item>
     </channel>
 </rss>
