@@ -30,6 +30,12 @@ image: /assets/img/trackpad.png
         </span>
         <span>Free download</span>
       </a>
+      <a href="#" class="button is-primary is-outlined is-medium ml-3" onclick="Paddle.Checkout.open({product: 634327})">
+        <span class="icon">
+            <i class="fas fa-shopping-cart"></i>
+        </span>
+        <span>Buy now</span>
+      </a>
       <p class="subtitle is-6 mt-2">*One week free trial</p>
     </div>
   </div>
@@ -132,7 +138,13 @@ image: /assets/img/trackpad.png
         <span class="icon">
             <i class="fas fa-download"></i>
         </span>
-        <span>Download now!</span>
+        <span>Free download</span>
+      </a>
+      <a href="#" class="button is-primary is-inverted is-outlined is-medium ml-3" onclick="Paddle.Checkout.open({product: 634327})">
+        <span class="icon">
+            <i class="fas fa-shopping-cart"></i>
+        </span>
+        <span>Buy now</span>
       </a>
       <p class="subtitle is-6 mt-2">*One week free trial</p>
     </div>
@@ -306,4 +318,8 @@ image: /assets/img/trackpad.png
     bottom: '15%',
     right: '15%',
   }, '-=1500')
+</script>
+<script src="https://cdn.paddle.com/paddle/paddle.js"></script>
+<script type="text/javascript">
+	Paddle.Setup({ vendor: 122455 });
 </script>
