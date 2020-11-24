@@ -72,7 +72,27 @@
             <description><![CDATA[<p>Bug fixes:</p>
 <ul>
     <li>Fixed issue where Grid quits unexpectedly on some Macs.</li>
-</ul>]]></description>
+</ul>
+]]></description>
+        </item>
+        <item>
+            <title>1.1.4</title>
+            <pubDate>Tue, 24 Nov 2020 19:44:07 +0700</pubDate>
+            <description><![CDATA[<p>Bug fixes:</p>
+<ul>
+    <li>Fixed issue where moving a window to previous display using gesture (Ctrl + swipe left) not working.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
+            <enclosure url="https://macgrid.app/download/Grid-1.1.4.dmg" sparkle:version="13" sparkle:shortVersionString="1.1.4" length="13931378" type="application/octet-stream" sparkle:edSignature="SWnaOzox/bPS9W7pH0PtzpyqZqp6gD6y0A/a4rto7bi5m9NrUI2NlXGL38b6v/Ux+dhG23mjsAcb7gVqLpYODQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://macgrid.app/download/Grid13-12.delta" sparkle:version="13" sparkle:shortVersionString="1.1.4" sparkle:deltaFrom="12" length="92009" type="application/octet-stream" sparkle:edSignature="e+xkaHz914efwDnkCUabiELa5ekUZIJLLyr4EC8aVOrP5UYuI5EmOyW5wwP3gyRrlowiADhol3ir7i7mUdteAg=="/>
+                <enclosure url="https://macgrid.app/download/Grid13-11.delta" sparkle:version="13" sparkle:shortVersionString="1.1.4" sparkle:deltaFrom="11" length="1850064" type="application/octet-stream" sparkle:edSignature="92Kgky6w1mjn1ss1riDtjxG2m8TesQIVK/JUw6n9/UFqqhPxEOI68U3dvrLTYZZl2/TVJ4XiUJ2iuGVJOo4aDg=="/>
+                <enclosure url="https://macgrid.app/download/Grid13-10.delta" sparkle:version="13" sparkle:shortVersionString="1.1.4" sparkle:deltaFrom="10" length="1850772" type="application/octet-stream" sparkle:edSignature="05uOdv22qtb2v/o+KabHvEH9lvX4ePB2GtKUWeWcuI6LaYGrlHTP45AO28D1vRkXy9w8ln69AaVQ02+RQSpLBw=="/>
+                <enclosure url="https://macgrid.app/download/Grid13-9.delta" sparkle:version="13" sparkle:shortVersionString="1.1.4" sparkle:deltaFrom="9" length="1853580" type="application/octet-stream" sparkle:edSignature="uAd5BoEl9xb/3sKCU3lC/ehnS5LAEALHtp+JITtL9ZIDdO5zy77XGfhKaUDoamze1hScb4WmzF5y71fkWrxyCQ=="/>
+                <enclosure url="https://macgrid.app/download/Grid13-8.delta" sparkle:version="13" sparkle:shortVersionString="1.1.4" sparkle:deltaFrom="8" length="1902044" type="application/octet-stream" sparkle:edSignature="SD5xMWbjEha/dVj5qH+1O4D7W+d/C4AtkzDfGFw3SM4adBN9cVc6PJHHKuMIGWQsDEUDdWET0Bigpes93riABg=="/>
+                <enclosure url="https://macgrid.app/download/Grid13-7.delta" sparkle:version="13" sparkle:shortVersionString="1.1.4" sparkle:deltaFrom="7" length="1775530" type="application/octet-stream" sparkle:edSignature="fkfwicSA+OIpufyOVSjWnESRLxj5SW8BTl1UilrTrI4vbSQczoAYeM0Y8UCkvGwReE8Q+N/YNcgta1DCvBuBAg=="/>
+            </sparkle:deltas>
         </item>
     </channel>
 </rss>
