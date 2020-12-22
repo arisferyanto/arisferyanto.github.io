@@ -63,6 +63,7 @@ subtitle: We'll get back to you as soon as possible.
 
     function error() {
       button.classList.remove('is-loading');
+      button.disabled = false
       status.classList.add('is-danger');
       status.innerHTML = "Oops! There was a problem.";
     }
@@ -72,6 +73,7 @@ subtitle: We'll get back to you as soon as possible.
     form.addEventListener("submit", function(ev) {
       ev.preventDefault();
       button.classList.add('is-loading');
+      button.disabled = true
       status.classList.remove('is-danger');
       status.innerHTML = '';
       var data = new FormData(form);
