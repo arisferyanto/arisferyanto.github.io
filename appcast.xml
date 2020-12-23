@@ -94,5 +94,25 @@
                 <enclosure url="https://macgrid.app/download/Grid13-7.delta" sparkle:version="13" sparkle:shortVersionString="1.1.4" sparkle:deltaFrom="7" length="1775530" type="application/octet-stream" sparkle:edSignature="fkfwicSA+OIpufyOVSjWnESRLxj5SW8BTl1UilrTrI4vbSQczoAYeM0Y8UCkvGwReE8Q+N/YNcgta1DCvBuBAg=="/>
             </sparkle:deltas>
         </item>
+        <item>
+            <title>1.2</title>
+            <pubDate>Wed, 23 Dec 2020 09:38:11 +0700</pubDate>
+            <description><![CDATA[<h2>Improvements:</h2>
+<ul>
+  <li>Added option in preferences to disable gestures.</li>
+  <li>Fix issue with multiple monitors when "Display have separate Spaces" is turned off.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
+            <enclosure url="https://macgrid.app/download/Grid-1.2.dmg" sparkle:version="14" sparkle:shortVersionString="1.2" length="13934383" type="application/octet-stream" sparkle:edSignature="wRMGqoNbYC6bCYp201u0Ato7+EnohAugyAG880Y5Q1jQiXqGLhku7jlivu83MCHIhLZGapeeAuEQ+Z46NdZKCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://macgrid.app/download/Grid14-13.delta" sparkle:version="14" sparkle:shortVersionString="1.2" sparkle:deltaFrom="13" length="197725" type="application/octet-stream" sparkle:edSignature="qJoqXwUpJevrTtunPL5zyriNKIlfu9KPV8cP3ncBnVxv/ozJASX88PEgzThkR1lB6Giu940heVKHgI1CpDcYDQ=="/>
+                <enclosure url="https://macgrid.app/download/Grid14-12.delta" sparkle:version="14" sparkle:shortVersionString="1.2" sparkle:deltaFrom="12" length="197934" type="application/octet-stream" sparkle:edSignature="n7msPa5zS1ug2+IGG9xkkDwi2nD+h8vOnG8B3RlOMl1P9hberHtyh+EMgs7GpFMow3044Sn1bdyjrQTtoUNHDg=="/>
+                <enclosure url="https://macgrid.app/download/Grid14-11.delta" sparkle:version="14" sparkle:shortVersionString="1.2" sparkle:deltaFrom="11" length="1895954" type="application/octet-stream" sparkle:edSignature="7pUPUGV3U/wiCPkLJIjvKeIZKD1+7gx88Zv0zcQ2oGk5cYaT+JaIcP69ePHuzTMKkA4p7794Nsto1R8U0UxmAw=="/>
+                <enclosure url="https://macgrid.app/download/Grid14-10.delta" sparkle:version="14" sparkle:shortVersionString="1.2" sparkle:deltaFrom="10" length="1895660" type="application/octet-stream" sparkle:edSignature="i8n7LvRnP0o56VGrro5vRcXe7zUsZOeoc0jdEv63JG7WPYqMqXESj7H3C1j0mXvZl74BxB9Q1vI6joOOUkwRAA=="/>
+                <enclosure url="https://macgrid.app/download/Grid14-9.delta" sparkle:version="14" sparkle:shortVersionString="1.2" sparkle:deltaFrom="9" length="1896942" type="application/octet-stream" sparkle:edSignature="zpZBPm6Dn7ylRX0LQGOPCVll3UsqRCCKr8DKDkAbO4Vk5jZDEFgVb58X/3v+aOB9kt/mWmeJZOkHgCQ5h5xVBQ=="/>
+                <enclosure url="https://macgrid.app/download/Grid14-8.delta" sparkle:version="14" sparkle:shortVersionString="1.2" sparkle:deltaFrom="8" length="1923615" type="application/octet-stream" sparkle:edSignature="tg8ZQcCciwuU7Cv/L8em6U+vbIwa3ZHLmbqpcpE/djiynBzZXi4PJIzaaPSHus9Y3Nq7YnNGyzT0bWssfY3+DQ=="/>
+            </sparkle:deltas>
+        </item>
     </channel>
 </rss>
