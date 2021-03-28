@@ -133,5 +133,25 @@
                 <enclosure url="https://macgrid.app/download/Grid15-9.delta" sparkle:version="15" sparkle:shortVersionString="1.3" sparkle:deltaFrom="9" length="1907265" type="application/octet-stream" sparkle:edSignature="rJorBMMyRUnW+bAA2MVoDCc8DMYQvVVMGxDbE9YuQGdaXFCwVYaRDswBOMPJYCVagafA8O+T8ogj9bXclE3OBA=="/>
             </sparkle:deltas>
         </item>
+        <item>
+            <title>1.4</title>
+            <pubDate>Sun, 28 Mar 2021 08:18:50 +0700</pubDate>
+            <description><![CDATA[<h2>Improvements:</h2>
+<ul>
+  <li>Cancel gesture when idle for more than 1.5 seconds.</li>
+  <li>New app icon.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
+            <enclosure url="https://macgrid.app/download/Grid-1.4.dmg" sparkle:version="16" sparkle:shortVersionString="1.4" length="13464912" type="application/octet-stream" sparkle:edSignature="WGVt0/hREGwl8WkCSAp3S7mPZqL5sGq62CEOcIaYXmIXmv32sVfYNWNT6yx5QmFp5qv5EB8XhcsJf6zoGj8MAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://macgrid.app/download/Grid16-15.delta" sparkle:version="16" sparkle:shortVersionString="1.4" sparkle:deltaFrom="15" length="1743919" type="application/octet-stream" sparkle:edSignature="KWJm0RoDXoJdjfTrzTAT9fvIhJx/2vbE6uxaYtvWTI5DPwMwwdyxAAfIjqfJtnk8PnhbCme85dIUQDCWxtSHCA=="/>
+                <enclosure url="https://macgrid.app/download/Grid16-14.delta" sparkle:version="16" sparkle:shortVersionString="1.4" sparkle:deltaFrom="14" length="1772433" type="application/octet-stream" sparkle:edSignature="vX/GPAO62FmsTpnV1/KvBLhmIL9XVj6WTBMSRAsRwuIp+ixOB5Y1XdEQMoAFd8xUuFVxT/BQbOPsQepuGBqmAQ=="/>
+                <enclosure url="https://macgrid.app/download/Grid16-13.delta" sparkle:version="16" sparkle:shortVersionString="1.4" sparkle:deltaFrom="13" length="1828745" type="application/octet-stream" sparkle:edSignature="jtnujyp5XOsIqvjk4cR7PHn6EQZ0/wI9FcmMtKXdAidlgmBiIZT4cobmC3Duz+xW2qbV9QSoztq6MVQVdI3SBA=="/>
+                <enclosure url="https://macgrid.app/download/Grid16-12.delta" sparkle:version="16" sparkle:shortVersionString="1.4" sparkle:deltaFrom="12" length="1828434" type="application/octet-stream" sparkle:edSignature="5G4ZD2vYD3fWraqu11TTGsG5qJi+f8DSQnSqSPWiisf5utOIRBKQc1lTqz5W9tifWEaYXpbQlaB/jLESMQ9cAg=="/>
+                <enclosure url="https://macgrid.app/download/Grid16-11.delta" sparkle:version="16" sparkle:shortVersionString="1.4" sparkle:deltaFrom="11" length="3519782" type="application/octet-stream" sparkle:edSignature="WwGv/Ti1qF9tR6isU/KnAB2HvudPyanw3H5vaeNCdFrSJLctU9NXKl9vhBwnx5o4HzGgEiwKzokRokwF7CRSAg=="/>
+                <enclosure url="https://macgrid.app/download/Grid16-10.delta" sparkle:version="16" sparkle:shortVersionString="1.4" sparkle:deltaFrom="10" length="3519327" type="application/octet-stream" sparkle:edSignature="nMHWiJAoi0xRudzANVo9TCBlCrusQno23i2voytxXfPbvFL1wImkgRj9DfxNKQuPdiQtzy5JbYD+c+m8d+47AA=="/>
+            </sparkle:deltas>
+        </item>
     </channel>
 </rss>
